@@ -49,7 +49,11 @@ $wp_query->is_home = false;
               }
             ?>    
           </div>
-          <div class="share"><?php echo do_shortcode('[addtoany]'); ?></div>   
+          <div class="share">
+            <div class="shareline"></div>
+            <?php echo do_shortcode('[addtoany]'); ?>
+              
+            </div>   
         </div>
         <?php
       endwhile;

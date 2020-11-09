@@ -1546,3 +1546,87 @@ img + .values-text{
   font-size: 23px;
   line-height: 1.2;
 }
+
+/* SERVICES */
+
+.main-services{
+  margin-top: 48px;
+}
+
+.services-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services-item{
+  width: calc(33% - 15px);
+  background-color: #EFEFEF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.services-item.main{
+  padding: 43px 36px 48px 36px;
+  height: 567px;
+}
+
+.services-item .s-img{
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-name{
+  text-align: center;
+  margin-top: 34px;
+  text-transform: uppercase;
+  color: #820100;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.service-name i{
+  font-style: italic;
+}
+
+.service-description{
+  margin-top: 25px;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+a.service-button{
+  margin-top: auto;
+  padding: 16px 80px;
+  background-color: #929292;
+  color: #fff;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+a.service-button:hover{
+  text-decoration: none;
+  background-color: #B7B7B7;
+}
+
+.add-services{
+  margin-top: 55px;
+}
+
+.add-services .services-row{
+  margin-top: 50px;
+}
+
+.services-item.add{
+  padding: 60px 0 50px;
+  /* height: 270px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

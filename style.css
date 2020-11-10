@@ -134,7 +134,7 @@ header{
 
 .header-bottom{
   padding: 15px 0;
-  background-color: rgba(0, 0, 0, .25);
+  background-color: rgba(57, 69, 96, .87);
   position: absolute;
   left: 0;
   right: 0;
@@ -189,8 +189,8 @@ header{
   text-decoration: underline;
 }
 
-.header-bottom nav.navbar a + a{
-    margin-left: 40px;
+.header-bottom nav.navbar li + li{
+    margin-left: 60px;
   }
 
 @media(max-width: 1199px){
@@ -223,7 +223,8 @@ header{
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  .header-bottom nav.navbar a + a{
+
+  .header-bottom nav.navbar li + li{
     margin-left: 0;
     margin-top: 26px;
   }
@@ -1629,4 +1630,78 @@ a.service-button:hover{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+
+/* one-service */
+
+.one-service{
+  padding-top: 180px;
+  font-size: 20px;
+  line-height: 1.2;
+  padding-bottom: 96px;
+}
+
+.one-icon{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+.wp-block-group{
+  margin-top: 60px;
+  margin-bottom: 96px;
+  background-color: #efefef;
+  font-size: 22px;
+  line-height: 1.2;
+  position: relative;
+}
+.wp-block-group:before{
+  background-color: #efefef;
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  left: calc(50% - 50vw);
+  z-index: -1;
+  height: 100%;
+}
+
+.wp-block-group > div{
+  display: flex;
+}
+
+.wp-block-group > div > *{
+  width: 50%;
+}
+
+.wp-block-group > div > p{
+  padding: 36px 46px 36px 0;
+}
+.one-service .wp-block-image{
+  margin: 0;
+}
+.wp-block-group .wp-block-image img{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.one-service h2{
+  text-transform: uppercase;
+
+}
+
+.one-service h2, .one-service h3, .one-service h4{
+  margin-top: 24px;
+  margin-bottom: 10px;
+  color: #820100;
+}
+
+.one-service ul{
+  list-style-type: circle;
+}
+
+.one-service ul li{
+  margin-left: 20px;
 }

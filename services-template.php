@@ -33,7 +33,7 @@ Template Name: Шаблон услуги
         <div class="s-img"><img src="<?php bloginfo('template_directory') ?>/img/s-abonent.png" alt="Абонентское юридическое обслуживание"></div>
         <h3 class="service-name">АБОНЕНТСКОЕ<br>ЮРИДИЧЕСКОЕ ОБСЛУЖИВАНИЕ</h3>
         <p class="service-description"> Данная услуга, актуальная при: проведении проверок контролирующими органами, заключении коммерческих договоров, сопровождении производственной деятельности, покупке бизнеса, реализации продукции, разработке внутренних положений в работе предприятия, либо существует необходимость привлечения квалифицированных специалистов в решении сложных вопросов.</p>
-        <a href="" class="service-button">Подробнее</a>
+        <a href="<?php echo get_site_url() ?>/uslugi/abonentskoe-juridicheskoe-obsluzhivanie/" class="service-button">Подробнее</a>
       </div>
       <div class="services-item main">
         <div class="s-img"><img src="<?php bloginfo('template_directory') ?>/img/s-debt.png" alt="ликвидация предприятий"></div>

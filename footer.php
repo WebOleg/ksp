@@ -41,6 +41,7 @@
         <a href="" class="confidentiality">Политика конфиденциальности</a>
       </div>
     </div>
+
   </footer>
 
 

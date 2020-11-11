@@ -26,7 +26,13 @@
           <div class="header-icon"><img src="<?php bloginfo('template_directory') ?>/img/h_phone.png" alt="phone"></div>
           <span>097 001 70 16</span>
         </a>
-        <a href="" class="header-btn">Задать вопрос юристу</a>
+        <span class="header-btn">Задать вопрос юристу</span>
+        <div class="question-form hide">
+          <div class="question-inner">
+            <?php echo do_shortcode('[contact-form-7 id="72" title="Контактная форма 1"]') ?>
+            <span class="question-close">закрыть</span>
+          </div>
+        </div>
       </div>
     </div>
 

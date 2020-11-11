@@ -51,7 +51,7 @@
               <span>ликвидация предприятий<br>(банкротство предприятий)</span>
               <img src="<?php bloginfo('template_directory') ?>/img/item-5.png" alt="">
             </div>
-            <a href="" class="proposes-item">
+            <a href="<?php echo get_site_url() ?>/uslugi" class="proposes-item">
               <img src="<?php bloginfo('template_directory') ?>/img/item-6.png" alt="">
               <span>все услуги</span>
             </a>
@@ -146,7 +146,7 @@
           ?>
           
         </div>
-        <p class="all-news"><a href="#">Все новости</a></p>
+        <p class="all-news"><a href="<?php echo get_site_url() ?>/novosti">Все новости</a></p>
       </div>
     </section>
 
@@ -174,8 +174,8 @@
                   <div class="client-card-text">
                     <span class="client-name">Григорий Альбертович</span>
                     <div class="client-comment">
-                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                      <a href="#" class="full-comment">Отзыв полностью</a>
+                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                      <span class="full-comment">Отзыв полностью</span>
                     </div>
                   </div>
                 </div>
@@ -185,7 +185,7 @@
                     <span class="client-name">Карина Евгеньевна</span>
                     <div class="client-comment">
                       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                      <a href="#" class="full-comment">Отзыв полностью</a>
+                      <span class="full-comment">Отзыв полностью</span>
                     </div>
                   </div>
                 </div>
@@ -199,7 +199,7 @@
                     <span class="client-name">Карина Евгеньевна</span>
                     <div class="client-comment">
                       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                      <a href="#" class="full-comment">Отзыв полностью</a>
+                      <span class="full-comment">Отзыв полностью</span>
                     </div>
                   </div>
                 </div>
@@ -209,7 +209,7 @@
                     <span class="client-name">Григорий Альбертович</span>
                     <div class="client-comment">
                       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-                      <a href="#" class="full-comment">Отзыв полностью</a>
+                      <span class="full-comment">Отзыв полностью</span>
                     </div>
                   </div>
                 </div>
